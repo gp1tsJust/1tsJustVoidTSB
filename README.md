@@ -211,7 +211,6 @@ local SkidFling = function(TargetPlayer)
     end
 end
 
-if not Welcome then Message("Script by AnthonyIsntHere", "Enjoy!", 5) end
 getgenv().Welcome = true
 if Targets[1] then for _,x in next, Targets do GetPlayer(x) end else return end
 
